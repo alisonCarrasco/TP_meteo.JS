@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppMeteo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="erreur">
+        
+    </div>
+    <div class="grille">
+        <div class="loader">
+            <img src="loader.svg" alt="chargement">
+
+        </div>
+        <div class="localisation">Paris</div>
+            <div class="temperature">10°</div>
+            <div class="icone">
+                <canvas width="128" height="128" id="icone"></canvas>
+
+            </div>
+
+            <div class="description">Nuageux</div>
+
+
+            <div class="previsionTempJournee">
+                <div class="heuresTemp">
+                    <div class="heure">1</div>
+                    <div class="tempPourH">1</div>
+                </div>
+                <div class="heuresTemp">
+                    <div class="heure">1</div>
+                    <div class="tempPourH">1</div>
+                </div>
+                <div class="heuresTemp">
+                    <div class="heure">1</div>
+                    <div class="tempPourH">1</div>
+                </div>
+                <div class="heuresTemp">
+                    <div class="heure">1</div>
+                    <div class="tempPourH">1</div>
+                </div>
+                <div class="heuresTemp">
+                    <div class="heure">1</div>
+                    <div class="tempPourH">1</div>
+                </div>
+                <div class="heuresTemp">
+                    <div class="heure">1</div>
+                    <div class="tempPourH">1</div>
+                </div>
+                <div class="heuresTemp">
+                    <div class="heure">1</div>
+                    <div class="tempPourH">1</div>
+                </div>
+                <div class="heuresTemp">
+                    <div class="heure">1</div>
+                    <div class="tempPourH">1</div>
+                </div>
+            </div>
+
+
+
+            <div class="prevision">
+                <div class="jours">
+                    <div class="iconePrev">
+                        <canvas width="48" height="48" id="icone2"></canvas>
+                    </div>
+                    <div class="joursSem"></div>
+                </div>
+
+                <div class="jours">
+                    <div class="iconePrev">
+                        <canvas width="48" height="48" id="icone3"></canvas>
+                    </div>
+                    <div class="joursSem"></div>
+                </div>
+                
+                <div class="jours">
+                    <div class="iconePrev">
+                        <canvas width="48" height="48" id="icone4"></canvas>
+                    </div>
+                    <div class="joursSem"></div>
+                </div>
+
+                <div class="jours">
+                    <div class="iconePrev">
+                        <canvas width="48" height="48" id="icone5"></canvas>
+                    </div>
+                    <div class="joursSem"></div>
+                </div>
+
+                <div class="jours">
+                    <div class="iconePrev">
+                        <canvas width="48" height="48" id="icone6"></canvas>
+                    </div>
+                    <div class="joursSem"></div>
+                </div>
+
+                <div class="jours">
+                    <div class="iconePrev">
+                        <canvas width="48" height="48" id="icone7"></canvas>
+                    </div>
+                    <div class="joursSem"></div>
+                </div>
+
+                <div class="jours">
+                    <div class="iconePrev">
+                        <canvas width="48" height="48" id="icone8"></canvas>
+                    </div>
+                    <div class="joursSem"></div>
+                </div>
+            </div>
+        
+    </div>
+
+    <script src="./skycons-master/skycons.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
